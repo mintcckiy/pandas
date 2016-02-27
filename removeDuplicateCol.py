@@ -1,7 +1,7 @@
 __author__ = 'wzhang'
 
 """
-pandasql library provides a way to do inner joins between two dataframes by writing sql queries 
+pandasql library provides a way to do inner joins between multiple dataframes by writing sql queries 
 Sometimes, for simplicity purpose, we use 'SELECT *' in sql queries but this might include duplicate 
 columns with duplicate column names. 
 
