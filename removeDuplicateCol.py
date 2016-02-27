@@ -1,5 +1,14 @@
 __author__ = 'wzhang'
 
+"""
+pandasql library provides a way to do inner joins between two dataframes by writing sql queries 
+Sometimes, for simplicity purpose, we use 'SELECT *' in sql queries but this might include duplicate 
+columns with duplicate column names. 
+
+The following function aims to remove the duplicate columns with the same column names from the result of inner joins.    
+"""
+
+
 import itertools
 from collections import Counter
 
