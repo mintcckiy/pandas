@@ -12,7 +12,7 @@ The following function aims to remove the duplicate columns with the same column
 import itertools
 from collections import Counter
 
-def removeDuplicateCol(df):
+def remove_duplicate_columns(df):
 
     """
 
